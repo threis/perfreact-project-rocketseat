@@ -22,3 +22,12 @@ export const ProductItem = memo(
     return Object.is(prevProps.product, nextProps.product);
   }
 );
+
+
+/* 
+* memo
+* 1. Pure Functional Components
+* 2. Renders too often
+* 3. Re-renders with same props
+* 3. Medium to big size
+*/
